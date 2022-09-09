@@ -1,0 +1,16 @@
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\obj\Debug\net5.0\IntroToOOP.csproj.AssemblyReference.cache
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\obj\Debug\net5.0\IntroToOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\obj\Debug\net5.0\IntroToOOP.AssemblyInfoInputs.cache
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\obj\Debug\net5.0\IntroToOOP.AssemblyInfo.cs
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\obj\Debug\net5.0\IntroToOOP.csproj.CoreCompileInputs.cache
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\bin\Debug\net5.0\IntroToOOP.exe
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\bin\Debug\net5.0\IntroToOOP.deps.json
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\bin\Debug\net5.0\IntroToOOP.runtimeconfig.json
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\bin\Debug\net5.0\IntroToOOP.runtimeconfig.dev.json
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\bin\Debug\net5.0\IntroToOOP.dll
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\bin\Debug\net5.0\ref\IntroToOOP.dll
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\bin\Debug\net5.0\IntroToOOP.pdb
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\obj\Debug\net5.0\IntroToOOP.dll
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\obj\Debug\net5.0\ref\IntroToOOP.dll
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\obj\Debug\net5.0\IntroToOOP.pdb
+C:\Users\vhsilva\source\repos\IntroToOOP\IntroToOOP\obj\Debug\net5.0\IntroToOOP.genruntimeconfig.cache

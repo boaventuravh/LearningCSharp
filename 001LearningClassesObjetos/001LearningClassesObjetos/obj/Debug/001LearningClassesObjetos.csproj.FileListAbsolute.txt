@@ -1,0 +1,7 @@
+C:\Users\vhsilva\source\repos\001LearningClassesObjetos\001LearningClassesObjetos\obj\Debug\001LearningClassesObjetos.csproj.AssemblyReference.cache
+C:\Users\vhsilva\source\repos\001LearningClassesObjetos\001LearningClassesObjetos\obj\Debug\001LearningClassesObjetos.csproj.CoreCompileInputs.cache
+C:\Users\vhsilva\source\repos\001LearningClassesObjetos\001LearningClassesObjetos\bin\Debug\001LearningClassesObjetos.exe.config
+C:\Users\vhsilva\source\repos\001LearningClassesObjetos\001LearningClassesObjetos\bin\Debug\001LearningClassesObjetos.exe
+C:\Users\vhsilva\source\repos\001LearningClassesObjetos\001LearningClassesObjetos\bin\Debug\001LearningClassesObjetos.pdb
+C:\Users\vhsilva\source\repos\001LearningClassesObjetos\001LearningClassesObjetos\obj\Debug\001LearningClassesObjetos.exe
+C:\Users\vhsilva\source\repos\001LearningClassesObjetos\001LearningClassesObjetos\obj\Debug\001LearningClassesObjetos.pdb

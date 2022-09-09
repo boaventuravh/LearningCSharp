@@ -1,0 +1,7 @@
+C:\Users\vhsilva\source\repos\EntryPoint\EntryPoint\bin\Debug\EntryPoint.exe.config
+C:\Users\vhsilva\source\repos\EntryPoint\EntryPoint\bin\Debug\EntryPoint.exe
+C:\Users\vhsilva\source\repos\EntryPoint\EntryPoint\bin\Debug\EntryPoint.pdb
+C:\Users\vhsilva\source\repos\EntryPoint\EntryPoint\obj\Debug\EntryPoint.csproj.CoreCompileInputs.cache
+C:\Users\vhsilva\source\repos\EntryPoint\EntryPoint\obj\Debug\EntryPoint.exe
+C:\Users\vhsilva\source\repos\EntryPoint\EntryPoint\obj\Debug\EntryPoint.pdb
+C:\Users\vhsilva\source\repos\EntryPoint\EntryPoint\obj\Debug\EntryPoint.csproj.AssemblyReference.cache

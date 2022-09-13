@@ -5,7 +5,7 @@
         public string titular;
         public double saldo;
         
-    public bool Saque(double decre)
+    public bool Saque(double decre) // isso é um método
         {
         Console.WriteLine("Realizando um saque de " + decre);
         if (saldo >= decre)
@@ -17,8 +17,17 @@
         
         }
 
-    public void Deposito(double valor)
+    public void Deposito(double valor) // isso é outro método
         {
             this.saldo += valor;
         }
+
+    public void Trasnf(double valor, Conta destino)
+     {
+        if (this.saldo >= valor)
+        {
+            this.saldo -= valor;
+            destino.saldo += valor;
+        }
+     }
     }

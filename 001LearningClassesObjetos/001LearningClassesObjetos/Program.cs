@@ -11,7 +11,8 @@ namespace _001LearningClassesObjetos
         static void Main() 
         {
             Conta v = new Conta();
-            bool saqueSucedido;
+            Conta c = new Conta();
+            //bool saqueSucedido;
             
 
             Console.WriteLine("Digite o numero da conta: ");
@@ -25,27 +26,47 @@ namespace _001LearningClassesObjetos
             Console.WriteLine("Numero: " + v.numero);
             Console.WriteLine("Titular: " + v.titular);
             Console.WriteLine("Saldo inicial: " + v.saldo);
+            
+            Console.WriteLine("Digite o numero da conta: ");
+            c.numero = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o nome do titular: ");
+            c.titular = Console.ReadLine();
+            Console.WriteLine("Digite o saldo inicial: ");
+            c.saldo = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o valor do saque: ");
-            double valorSacado = double.Parse(Console.ReadLine());
+            Console.WriteLine("----------Dados da conta------------");
+            Console.WriteLine("Numero: " + c.numero);
+            Console.WriteLine("Titular: " + c.titular);
+            Console.WriteLine("Saldo inicial: " + c.saldo);
 
-            saqueSucedido = v.Saque(valorSacado);
+            Console.WriteLine("Digite o valor da transferencia: ");
+            double valorTransf = double.Parse(Console.ReadLine());
 
-            if(saqueSucedido)
+            c.Trasnf(valorTransf, v);
+
+
+
+            
+
+            /* 
+              if(saqueSucedido)
             {
-                Console.WriteLine("Saque bem sucedido!");
+                Console.WriteLine("Transferencia bem sucedida!");
                 Console.WriteLine("Saldo final: " + v.saldo);
             }
             else
             {
-                Console.WriteLine("Nao foi possivel realizar o saque!");
+                Console.WriteLine("Nao foi possivel realizar a tranferencia!");
             }
 
             Console.WriteLine("Qual o valor do deposito?");
             double valorDepositado = double.Parse(Console.ReadLine());
-            v.Deposito(valorDepositado);
+            v.Deposito(valorDepositado);*/
 
-            Console.WriteLine("Saldo atualizado: " + v.saldo);
+            Console.WriteLine("Saldo atualizado: ");
+            Console.WriteLine("Conta c: " + c.saldo);
+            Console.WriteLine("Conta v: " + v.saldo);
+
 
         }
     }

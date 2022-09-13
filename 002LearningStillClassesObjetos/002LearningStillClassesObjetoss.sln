@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002LearningStillClassesObjetoss", "002LearningStillClassesObjetoss\002LearningStillClassesObjetoss.csproj", "{4E69CBD5-D8AD-4980-9182-EB99B291FA2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E69CBD5-D8AD-4980-9182-EB99B291FA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E69CBD5-D8AD-4980-9182-EB99B291FA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E69CBD5-D8AD-4980-9182-EB99B291FA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E69CBD5-D8AD-4980-9182-EB99B291FA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {241ED575-B6D8-4123-98F2-EA88EBB22B20}
+	EndGlobalSection
+EndGlobal

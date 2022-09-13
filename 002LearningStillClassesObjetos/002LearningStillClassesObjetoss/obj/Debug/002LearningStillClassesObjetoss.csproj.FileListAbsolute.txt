@@ -1,0 +1,7 @@
+C:\Users\vhsilva\source\repos\002LearningStillClassesObjetos\002LearningStillClassesObjetoss\bin\Debug\002LearningStillClassesObjetoss.exe.config
+C:\Users\vhsilva\source\repos\002LearningStillClassesObjetos\002LearningStillClassesObjetoss\bin\Debug\002LearningStillClassesObjetoss.exe
+C:\Users\vhsilva\source\repos\002LearningStillClassesObjetos\002LearningStillClassesObjetoss\bin\Debug\002LearningStillClassesObjetoss.pdb
+C:\Users\vhsilva\source\repos\002LearningStillClassesObjetos\002LearningStillClassesObjetoss\obj\Debug\002LearningStillClassesObjetoss.csproj.AssemblyReference.cache
+C:\Users\vhsilva\source\repos\002LearningStillClassesObjetos\002LearningStillClassesObjetoss\obj\Debug\002LearningStillClassesObjetoss.csproj.CoreCompileInputs.cache
+C:\Users\vhsilva\source\repos\002LearningStillClassesObjetos\002LearningStillClassesObjetoss\obj\Debug\002LearningStillClassesObjetoss.exe
+C:\Users\vhsilva\source\repos\002LearningStillClassesObjetos\002LearningStillClassesObjetoss\obj\Debug\002LearningStillClassesObjetoss.pdb

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0B884C27-EE91-42B4-9C91-9C430FC42671}</ProjectGuid>
+    <ProjectGuid>{AB8AA4A6-D010-4DF4-83A2-8DC5BB0DDEED}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01Lista</RootNamespace>
-    <AssemblyName>01Lista</AssemblyName>
+    <RootNamespace>_003EncapsulamentoModificadoresDeAcesso</RootNamespace>
+    <AssemblyName>003EncapsulamentoModificadoresDeAcesso</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Rgb.cs" />
+    <Compile Include="Conta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

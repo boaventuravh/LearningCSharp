@@ -95,22 +95,26 @@ public class Rgb //essa classe como um todo é o item i da lista
 	// o método abaixo é referente ao item  xi
 	public void EquivalenteCinza(Rgb cor, Rgb equivalenteCinza)
 	{
-		double luminosidade = Math.Truncate(cor.red * 0.3 + cor.green * 0.59 + cor.blue * 0.11);
-		equivalenteCinza.red = Math.Truncate(luminosidade); //MathTruncate
-		equivalenteCinza.green = luminosidade;
-		equivalenteCinza.blue = luminosidade;
+		double dobRed, dobGreen, dobBlue;
+		dobRed = cor.red;
+		dobGreen = cor.green;
+		dobBlue = cor.blue;
+		double luminosidade = Math.Truncate(dobRed * 0.3 + dobGreen * 0.59 + dobBlue * 0.11);
+		equivalenteCinza.red = (int)luminosidade; //MathTruncate
+		equivalenteCinza.green = (int)luminosidade;
+		equivalenteCinza.blue = (int)luminosidade;
 	}
 
-	// o método abaixo é referente ao item xii
+	// os dois métodos abaixo são referentes ao item xii, duas formas diferentes de reslver o problema
 	public string RepreHexa(Rgb cor)
-    {
+	{
 		int res, quo;
 
 		string redDig1, redDig2;
 		quo = cor.red / 16;
 		res = cor.red % 16;
-		switch(quo)
-        {
+		switch (quo)
+		{
 			case 10: redDig1 = "A"; break;
 			case 11: redDig1 = "B"; break;
 			case 12: redDig1 = "C"; break;
@@ -129,7 +133,7 @@ public class Rgb //essa classe como um todo é o item i da lista
 			case 15: redDig2 = "F"; break;
 			default: redDig2 = res.ToString(); break;
 		}
-		
+
 		string greenDig1, greenDig2;
 		quo = cor.green / 16;
 		res = cor.green % 16;
@@ -153,7 +157,7 @@ public class Rgb //essa classe como um todo é o item i da lista
 			case 15: greenDig2 = "F"; break;
 			default: greenDig2 = res.ToString(); break;
 		}
-		
+
 		string blueDig1, blueDig2;
 		quo = cor.blue / 16;
 		res = cor.blue % 16;
@@ -182,5 +186,120 @@ public class Rgb //essa classe como um todo é o item i da lista
 		return repHexa;
 	}
 
+	public string RepreHexaDois(Rgb cor)
+	{
+		string redDig1, redDig2;
+		redDig1 = (cor.red / 16).ToString();
+		Convert.ToString(Convert.ToInt32(redDig1, 10), 16);
+		switch (redDig1)
+		{
+			case "10": redDig1 = "A"; break;
+			case "11": redDig1 = "B"; break;
+			case "12": redDig1 = "C"; break;
+			case "13": redDig1 = "D"; break;
+			case "14": redDig1 = "E"; break;
+			case "15": redDig1 = "F"; break;
+		}
+		redDig2 = (cor.red % 16).ToString();
+		Convert.ToString(Convert.ToInt32(redDig2, 10), 16);
+		switch (redDig2)
+		{
+			case "10": redDig2 = "A"; break;
+			case "11": redDig2 = "B"; break;
+			case "12": redDig2 = "C"; break;
+			case "13": redDig2 = "D"; break;
+			case "14": redDig2 = "E"; break;
+			case "15": redDig2 = "F"; break;
+		}
+
+		string greenDig1, greenDig2;
+		greenDig1 = (cor.green / 16).ToString();
+		Convert.ToString(Convert.ToInt32(greenDig1, 10), 16);
+		switch (greenDig1)
+		{
+			case "10": greenDig1 = "A"; break;
+			case "11": greenDig1 = "B"; break;
+			case "12": greenDig1 = "C"; break;
+			case "13": greenDig1 = "D"; break;
+			case "14": greenDig1 = "E"; break;
+			case "15": greenDig1 = "F"; break;
+		}
+		greenDig2 = (cor.green % 16).ToString();
+		Convert.ToString(Convert.ToInt32(greenDig2, 10), 16);
+		switch (greenDig2)
+		{
+			case "10": greenDig2 = "A"; break;
+			case "11": greenDig2 = "B"; break;
+			case "12": greenDig2 = "C"; break;
+			case "13": greenDig2 = "D"; break;
+			case "14": greenDig2 = "E"; break;
+			case "15": greenDig2 = "F"; break;
+		}
+
+		string blueDig1, blueDig2;
+		blueDig1 = (cor.blue / 16).ToString();
+		Convert.ToString(Convert.ToInt32(blueDig1, 10), 16);
+		switch (blueDig1)
+		{
+			case "10": blueDig1 = "A"; break;
+			case "11": blueDig1 = "B"; break;
+			case "12": blueDig1 = "C"; break;
+			case "13": blueDig1 = "D"; break;
+			case "14": blueDig1 = "E"; break;
+			case "15": blueDig1 = "F"; break;
+		}
+		blueDig2 = (cor.blue % 16).ToString();
+		Convert.ToString(Convert.ToInt32(blueDig2, 10), 16);
+		switch (blueDig2)
+		{
+			case "10": blueDig2 = "A"; break;
+			case "11": blueDig2 = "B"; break;
+			case "12": blueDig2 = "C"; break;
+			case "13": blueDig2 = "D"; break;
+			case "14": blueDig2 = "E"; break;
+			case "15": blueDig2 = "F"; break;
+		}
+
+		string repHexa = "#" + redDig1 + redDig2 + greenDig1 + greenDig2 + blueDig1 + blueDig2;
+		return repHexa;
+	}
+
+	//o método abaixo é referente ao item xiii 
+	public void Clarear(Rgb cor, double perc)
+	{
+		double dobRed, dobGreen, dobBlue;
+		dobRed = cor.red + cor.red * perc;
+		dobGreen = cor.green + cor.green * perc;
+		dobBlue = cor.blue + cor.blue * perc;
+		cor.red = (int)dobRed;
+		cor.green = (int)dobGreen;
+		cor.blue = (int)dobBlue;
+	}
+
+	//o método abaixo é referente ao item xiv
+	public void Escurecer(Rgb cor, double perc)
+	{
+		double dobRed, dobGreen, dobBlue;
+		dobRed = cor.red - cor.red * perc;
+		dobGreen = cor.green - cor.green * perc;
+		dobBlue = cor.blue - cor.blue * perc;
+		cor.red = (int)dobRed;
+		cor.green = (int)dobGreen;
+		cor.blue = (int)dobBlue;
+	}
+
+	//o método abaixo é referente ao item xv
+	public Rgb Instanciar(Rgb cor)
+	{
+		Rgb corNova = new Rgb();
+		corNova.red = cor.red;
+		corNova.green = cor.green;
+		corNova.blue = cor.blue;
+		return corNova;
+	}
+
+	//os atributos abaixo são refentes ao item xvi
+	public int[] preta = new int[3];
+	Rgb.preta[0] = 0; // como trabalhar com arrays aqui?
 
 }

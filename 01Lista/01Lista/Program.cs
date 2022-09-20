@@ -49,10 +49,34 @@ namespace _001Lista
             Console.WriteLine("Luminosidade equivalente cinza: " + lumiCinza);
 
             string hexa;
-            hexa = repDois.RepreHexa(repDois);
+            hexa = repDois.RepreHexaDois(repDois);
             Console.WriteLine("representacao hexadecimal de repDois: " + hexa);
-            hexa = repDois.RepreHexa(rep);
+            hexa = repDois.RepreHexaDois(rep);
             Console.WriteLine("representacao hexadecimal de rep: " + hexa);
+
+            Rgb clara = new Rgb();
+            
+            clara.SetRed(100); 
+            clara.SetGreen(100); 
+            clara.SetBlue(100);
+            Console.WriteLine("Antes do clareamento, red: "+clara.red+", green: "+clara.green+" e blue: "+clara.blue);
+
+            clara.Clarear(clara, 0.17);
+            Console.WriteLine("Depois do clareamento, red: " + clara.red + ", green: " + clara.green + " e blue: " + clara.blue);
+
+            Rgb escura = new Rgb();
+
+            escura.SetRed(100);
+            escura.SetGreen(100);
+            escura.SetBlue(100);
+            Console.WriteLine("Antes do escurecimento, red: " + escura.red + ", green: " + escura.green + " e blue: " + escura.blue);
+
+            escura.Escurecer(escura, 0.1);
+            Console.WriteLine("Depois do escurecimento, red: " + escura.red + ", green: " + escura.green + " e blue: " + escura.blue);
+
+            Rgb testInstancia = new Rgb();
+            testInstancia = testInstancia.Instanciar(rep);
+            Console.WriteLine("Instancia, red: " + testInstancia.red + ", green: " + testInstancia.green + " e blue: " + testInstancia.blue);
         }
 
         

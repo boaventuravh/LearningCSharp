@@ -13,18 +13,16 @@ namespace _02Lista
             Imagem oi = new Imagem();
             
 
-            oi.SetAltura(3);
-            oi.SetLargura(3);
+            oi.Altura = 2;
+            oi.Largura = 3;
             Console.WriteLine("Eis o tamanho: " + oi.CalculaTamanho());
 
-            Imagem oi2 = new Imagem(oi.largura*oi.altura);
+            Imagem oi2 = new Imagem(3,3);
+                       
 
-            //oi.FazImagem(oi.CalculaTamanho());
-
-            for (int alt = 0; alt < oi2.altura; alt++)
-                for (int larg = 0; larg < oi2.largura; larg++)
-                    for (int r = 0; r < oi2.rgb.Length; r++)
-                        Console.WriteLine("Altura: "+alt+", largura: "+larg+", canal de cor "+r+": "+oi2.rgb[r]);
+            for (int alt = 0; alt < oi2.Altura; alt++)
+                for (int larg = 0; larg < oi2.Largura; larg++)
+                        Console.WriteLine("Altura: "+alt+", largura: "+larg+", canal de cor red "+oi2.pixels[alt, larg]);
         }
         
     }

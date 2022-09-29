@@ -1,0 +1,7 @@
+C:\Users\vhsilva\source\repos\02Lista\02Lista\bin\Debug\02Lista.exe.config
+C:\Users\vhsilva\source\repos\02Lista\02Lista\bin\Debug\02Lista.exe
+C:\Users\vhsilva\source\repos\02Lista\02Lista\bin\Debug\02Lista.pdb
+C:\Users\vhsilva\source\repos\02Lista\02Lista\obj\Debug\02Lista.csproj.AssemblyReference.cache
+C:\Users\vhsilva\source\repos\02Lista\02Lista\obj\Debug\02Lista.csproj.CoreCompileInputs.cache
+C:\Users\vhsilva\source\repos\02Lista\02Lista\obj\Debug\02Lista.exe
+C:\Users\vhsilva\source\repos\02Lista\02Lista\obj\Debug\02Lista.pdb
